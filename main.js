@@ -56,6 +56,19 @@ arrayModelos.forEach( function( modelos, indice) {
 console.log(modelos +'' + indice)
 })
 
+console.warn('/*-------------------*/')
+console.warn('Ejercicio n°3')
+
+let tuVelocidad = 135
+
+let velocidadLimite = 60
+
+if(tuVelocidad > velocidadLimite){
+    console.log('Por favor, reduzca su velocidad!');
+} else {
+    console.log('Está en una velocidad admitida')
+}
+
 
 
 

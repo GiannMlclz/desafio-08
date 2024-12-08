@@ -40,3 +40,23 @@ arrayModelos.forEach( function( modelos, indice) {
 console.log(modelos +'' + indice)
 })
 ```
+
+## Ejercicio n°3
+
+3. Un coche va a toda velocidad por la carretera. Va a una velocidad de 135km/h y el limite es de 60km/h
+- Comprueba que si la velocidad es mayor al limite.
+- Si es mayor debes mostrar un mensaje por la consola indicando que baje la velocidad.
+- Si es menor el mensaje deberá ser que todo va bien.
+
+Uso el atributo if y else
+```sh
+let tuVelocidad = 135
+
+let velocidadLimite = 60
+
+if(tuVelocidad > velocidadLimite){
+    console.log('Por favor, reduzca su velocidad!');
+} else {
+    console.log('Está en una velocidad admitida')
+}
+```
