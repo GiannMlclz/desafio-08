@@ -1,6 +1,6 @@
 # Desafio N° 08: JavaScript
 
-## Desafio n°1
+## Ejercicio n°1
 
 1. Debes crear las variables nombre, apellido, edad, pais y conocimientos, esta última deberá ser un array.
 - Mostrar todos los valores de las variables por la consola. Los elementos del array mostrarlos en forma manual.
@@ -24,4 +24,19 @@ console.log(nombre)
 console.log(apellido)
 
 console.log(edad)
+```
+
+## Ejercicio n°2
+
+2. Debes crear las variables marca, velocidad, stock y modelos (array)
+- Todas esas variables deberán ser mostradas por pantalla (con una frase) [Usar template strings]
+- Debes mostrar cada uno de los elementos del array (sin hacerlo manualmente)
+
+de esta manera se muestran los elementos del array de una manera no manual
+```sh
+let arrayModelos = ['M4 GTS', '3.0 CSL', 'i8', 'M1', '1M Coupé']
+
+arrayModelos.forEach( function( modelos, indice) {
+console.log(modelos +'' + indice)
+})
 ```
