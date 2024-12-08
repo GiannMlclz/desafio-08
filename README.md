@@ -60,3 +60,27 @@ if(tuVelocidad > velocidadLimite){
     console.log('Está en una velocidad admitida')
 }
 ```
+
+## Ejercicio n°4
+
+4. Dado un sueldo, crear una condicional comparando su sueldo.
+- Si el sueldo es $100.000 es excelente
+- Si el sueldo es menor o igual a $80.000 es muy bueno.
+- Si el sueldo es menor o igual a $60.000 es bueno.
+- Y si el sueldo es menor o igual a $40.000 es bajo.
+
+aca use el prompt y el if.
+<!-- Aca inicialmente arranque de mayor a menor pero no funcionaba, probe hacerlo al revés y me funciono -->
+```sh
+let sueldo = prompt('Indique su sueldo:')
+
+if (sueldo <= 40000){
+    console.log('Su sueldo es bajo')
+}else if (sueldo <= 60000){
+    console.log('Su sueldo es bueno');
+}else if (sueldo <= 80000){
+    console.log('su sueldo es muy bueno');    
+}else if (sueldo = 100000){
+    console.log('Su sueldo es excelente');
+}
+```

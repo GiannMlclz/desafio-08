@@ -69,7 +69,20 @@ if(tuVelocidad > velocidadLimite){
     console.log('Está en una velocidad admitida')
 }
 
+console.warn('/*-------------------*/')
+console.warn('Ejercicio n°4')
 
+let sueldo = prompt('Indique su sueldo:')
+
+if (sueldo <= 40000){
+    console.log('Su sueldo es bajo')
+}else if (sueldo <= 60000){
+    console.log('Su sueldo es bueno');
+}else if (sueldo <= 80000){
+    console.log('su sueldo es muy bueno');    
+}else if (sueldo = 100000){
+    console.log('Su sueldo es excelente');
+}
 
 
 
