@@ -75,14 +75,29 @@ console.warn('Ejercicio n°4')
 let sueldo = prompt('Indique su sueldo:')
 
 if (sueldo <= 40000){
-    console.log('Su sueldo es bajo')
+    console.log('Su sueldo es bajo');
 }else if (sueldo <= 60000){
     console.log('Su sueldo es bueno');
 }else if (sueldo <= 80000){
     console.log('su sueldo es muy bueno');    
-}else if (sueldo = 100000){
-    console.log('Su sueldo es excelente');
+}else{
+    console.log('Su sueldo es excelente')
 }
 
 
 
+
+console.warn('/*-------------------*/')
+console.warn('Ejercicio n°5')
+
+let suAñoDeNacimiento = prompt('Indique su año de nacimiento:')
+let añoActual = 2024
+
+let suEdad = añoActual - suAñoDeNacimiento
+
+if (suAñoDeNacimiento < añoActual) {
+    console.log(`esta es su edad actual: ${suEdad}`)
+}
+
+console.warn('/*-------------------*/')
+console.warn('Ejercicio n°6')
