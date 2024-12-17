@@ -91,3 +91,31 @@ if (sueldo <= 40000){
 5. Pidele al usuario su año de Nacimiento (ej: 1990) en una ventana emergente (prompt) y calcula cuántos años tiene actualmente.
 
 * En este ejercicio hacemos la diferencia del año actual con el año de nacimiento ingresado en el mensaje prompt, y que eso tire la edad actual
+
+## Ejercicio n°6
+
+6. Crear una función en JavaScript que reciba como parámetro un número entero. Calcule y muestre en la consola la tabla de multiplicar de ese número desde 1 hasta 10.
+
+-- como ser vería en consola -> calcularTabla(2) -> Se utiliza un for
+ 2 x 1 = 2
+ 2 x 2 = 4
+ 2 x 3 = 6
+ 2 x 4 = 8
+
+ ```sh
+FOR: Aca utilizamos la sentencia for
+
+for (let i = 1; i < 10; i++) {  
+}
+
+consta de 3 partes:
+Primera pongo la inicializacion.
+Segunda pongo el numero que quiero en que se corte la repetición del bucle.
+Tercera indico cuantas veces quiero que se incremente.
+
+y aca usamos la funcion de multiplicar y luego consolear el resultado
+
+let multiplicar = numero * i
+console.log (`${numero} x ${i} = ${multiplicar}`)
+```
+

@@ -101,3 +101,20 @@ if (suAñoDeNacimiento < añoActual) {
 
 console.warn('/*-------------------*/')
 console.warn('Ejercicio n°6')
+
+let numero = prompt('Indique la tabla de que numero desea saber: ')
+
+console.log(`Tabla del: ${numero}`)
+
+// En esta parte tuve una complicación por que me decia que el atributo (i) no estaba definido, mi error era que lo estaba poniendo afuera del (for)
+
+for (let i = 1; i < 10; i++) {   
+    let multiplicar = numero * i
+    /* debugger */
+    console.log (`${numero} x ${i} = ${multiplicar}`)
+}
+
+
+
+
+
