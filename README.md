@@ -105,7 +105,7 @@ if (sueldo <= 40000){
  ```sh
 FOR: Aca utilizamos la sentencia for
 
-for (let i = 1; i < 10; i++) {  
+for (let i = 1; i < 11; i++) {  
 }
 
 consta de 3 partes:
@@ -119,3 +119,21 @@ let multiplicar = numero * i
 console.log (`${numero} x ${i} = ${multiplicar}`)
 ```
 
+## Ejercicio n°7
+
+7. Crea una función que devuelva si un número (pasado por el usuario es par o impar)
+Muestra el resultado por consola y un alert.
+
+```sh
+* En este ejercicio utilizamos un if else.
+
+* Usamos el resto para que al numero que coloquemos nos de par o impar
+
+let numeroParOImpar = prompt('Introduzca un número:')
+
+if (numeroParOImpar % 2 === 0) {
+
+} else
+
+* Un alert para que nos aparezca en pantalla y un console.log para que nos aparezca en la consola
+```

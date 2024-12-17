@@ -108,11 +108,26 @@ console.log(`Tabla del: ${numero}`)
 
 // En esta parte tuve una complicación por que me decia que el atributo (i) no estaba definido, mi error era que lo estaba poniendo afuera del (for)
 
-for (let i = 1; i < 10; i++) {   
+for (let i = 1; i < 11; i++) {   
     let multiplicar = numero * i
     /* debugger */
     console.log (`${numero} x ${i} = ${multiplicar}`)
 }
+
+console.warn('/*-------------------*/')
+console.warn('Ejercicio n°7')
+
+let numeroParOImpar = prompt('Introduzca un número:')
+
+if (numeroParOImpar % 2 === 0) {
+    console.log('El número es par')
+    alert('El número es par')
+} else{
+    console.log('El número es impar')
+    alert('el número es impar')
+}
+
+
 
 
 
